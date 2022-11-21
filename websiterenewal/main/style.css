@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+
+header {
+    text-align: center;
+    height: 81px;
+    margin: 0 auto;
+}
+
+
+header>h1 {
+    position: absolute;
+    left: 40px;
+    top: 0;
+    color: transparent;
+    padding: 5px;
+}
+
+header>h1>a {
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+#mainmenu >li:nth-child(1) {
+    margin-left: 500px;
+
+}
+
+#mainmenu > li {
+    float: left;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 10px;
+    padding: 0;
+}
+
+nav.second {
+    position: absolute;
+    right: 50px;
+    top: 0px;    
+}
+
+
+header .first li {
+    display: inline-block;
+    padding: 0 0 0 0px;
+    font-size: 14px;
+    color: black;
+}
+
+header .first li > a {
+    display: block;
+    height: 80px;
+    padding : 0 35px;
+    line-height: 80px;
+}
+
+header .first li > a:hover {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+    left: 0;
+    bottom: 10px;
+    background-color: lightgreen;
+}
+
+header .first li > a:after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 5px;
+    color: green;
+}
+
+header>h1>a>img {
+    width: 141px;
+    height: 27px;
+}
+
+header .second {
+    float: left;
+    margin-top: 20px;
+    padding-right: 0;
+    transform: translate(-50%);
+}
+
+nav.second {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200") no-repeat 
+    right 13px;
+}
+
+nav>select {
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 13px;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+/* IE에서 셀렉트박스 화살표 제거 */
+nav>select::-ms-expand {
+    opacity: inherit;
+    display: none;
+}
